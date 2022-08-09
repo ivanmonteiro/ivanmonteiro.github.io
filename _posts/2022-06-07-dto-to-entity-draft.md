@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Dto to Entity Conversion"
+date:   2022-06-07
+categories: dotnet dto automapper dto-to-entity
+---
+
 # Dto to Entity Conversion
 
 Some applications use DTOs (data transfer objects) to transfer data between layers.  
