@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding nginx location priority"
 date:   2022-05-04
-categories: nginx reverse-proxy
+categories: nginx
 ---
 
 To help clarify nginx location priority I will expliain the order in which nginx will try to match a location to a request.
