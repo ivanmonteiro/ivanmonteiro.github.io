@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Dto to Entity Conversion"
-date:   2022-06-07
-categories: dotnet dto automapper dto-to-entity
+categories: dotnet
 ---
 
 # Dto to Entity Conversion
