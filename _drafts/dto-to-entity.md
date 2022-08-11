@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dto to Entity Conversion"
-categories: dotnet
+categories: dotnet-core
 ---
 
 # Dto to Entity Conversion
