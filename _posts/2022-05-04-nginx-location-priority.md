@@ -5,13 +5,20 @@ date:   2022-05-04
 categories: nginx
 ---
 
-To help clarify nginx location priority I will expliain the order in which nginx will try to match a location to a request.
 
-1. Exact Match 
+To help clarify nginx location priority I will expliain the order in which nginx will try to match a location to a request. I also made the following diagram to help explain how nginx chooses a location.
+
+
+![Nginx location priority](/assets/img/nginx-location-priority.png)
+
+Remember that order matters:
+
+1. Exact Match
 
 Nginx will look for exact match locations first. If it finds one, it will stop looking for other locations.
 
 e.g.:
+
 ```
 location = /about {
     #...
