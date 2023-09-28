@@ -5,6 +5,6 @@ https://github.com/docker-library/wordpress/blob/940a0d35951a0917622c35acc92b38b
 
 
 # fix wp-content permissions
-chown -R 33:33 *
-find . -type d -exec chmod 755 {} \;  # Change directory permissions rwxr-xr-x
-find . -type f -exec chmod 644 {} \;  # Change file permissions rw-r--r--
+sudo chown -R 33:33 * # change owner to www-data
+sudo find . -type d -exec chmod 755 {} \;  # Change directory permissions rwxr-xr-x
+sudo find . -type f -exec chmod 644 {} \;  # Change file permissions rw-r--r--
